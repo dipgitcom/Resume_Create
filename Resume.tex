@@ -10,6 +10,12 @@
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
+\usepackage{array}
+\usepackage{calc}
+\usepackage{graphicx}    % For image handling
+\usepackage{fontawesome5} % Already being used for icons
+
+
 \usepackage{fontawesome5}
 \usepackage{multicol}
 \usepackage{graphicx}
@@ -80,41 +86,48 @@
 \begin{document}
 
 \begin{center}
-    {\Huge \textbf{DIPRAJ DHAR}} \\
-    \vspace{1pt}
-    {\large Software Engineer} \\
-    \vspace{2pt}
-    \small
-    \faIcon{phone} (+8801)533063814 $|$ 
-    \faIcon{map-marker-alt} Teribazar ,Chattogram $|$
-    \faIcon{envelope} dipraj2516@student.nstu.edu.bd \\
-     \vspace{2pt}
-    \href{https://www.linkedin.com/in/dipraj-dhar/overlay/about-this-profile/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B%2B1u4I%2FnwQZ%2BnR0I8ZPuSaw%3D%3D}{\faIcon{linkedin}} \quad
-    \href{https://github.com/dipgitcom}{\faIcon{github}} \quad
-    \href{https://dipraj-portfolio.vercel.app/}{\faIcon{globe}}
-    
+    \begin{minipage}{0.2\textwidth}
+        \includegraphics[width=2.5cm, height=2.5cm, keepaspectratio, clip, trim=0 0 0 0]{DiprajCv/Dip.jpg}
+    \end{minipage}
+    \hspace{0.05\textwidth}
+    \begin{minipage}{0.7\textwidth}
+        {\Huge \textbf{DIPRAJ DHAR}} \\
+        \vspace{1pt}
+        {\large Software Engineer} \\
+        \small
+        \faIcon{phone} (+8801)533063814 $|$ 
+        \faIcon{map-marker-alt} Teribazar,Chattogram $|$
+        \faIcon{envelope} dipraj2516@student.nstu.edu.bd \\
+        \vspace{2pt}
+        \href{https://www.linkedin.com/in/dipraj-dhar/?lipi=urn%3Ali%3Apage%3Ad_flagship3_notifications%3B9sd8NUJAQUuGry5eW5jlMQ%3D%3D}{\faIcon{linkedin}} \quad
+        \href{https://github.com/dipgitcom}{\faIcon{github}} \quad
+        \href{https://dipraj-portfolio.vercel.app/}{\faIcon{globe}}
+    \end{minipage}
 \end{center}
+
 
 \section{Education}
 \resumeSubHeadingListStart
 \resumeSubheading
 {Noakhali Science and Technology University}{Mar. 2021 - Running}
-{Bachelor of Science in Software Engineering}{3.46 out of 4 up to 7th semester}
+{Bachelor of Science in Software Engineering}{3.47 out of 4 up to 6th semester}
 \resumeSubHeadingListEnd
 
 \section{Technical Skills}
 \begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}r@{}}
-\textbf{Languages:}  Python, Java, C, SQL \\
+\textbf{Languages:}  Python, Java, C, C++ \\
 \textbf{Technologies/Frameworks:}  GitHub Desktop, Laravel \\
+\textbf{Database And Data Analysis:}  SQL, Numpy, Panda, Matplotlib \\
+\textbf{Operating System/Microsoft Packages:} Windows, Linux, Microsoft Office,Excel,Powerpoint \\
 \textbf{Software Dev. Process:} Design Patterns, SOLID \\
-\textbf{Web Dev. :} Html, Css, Javascript, Bootstrap, PHP  \\
+\textbf{Web Dev. :} Html, Css, Javascript, Bootstrap, PHP, ReactJs, NodeJs  \\
 \textbf{Soft Skills:}  Problem-solving ability, Adaptability, Communications, and Team working capability, Agile. \\
 \end{tabular*}
 
 \section{Experience}
 \resumeSubHeadingListStart
 \resumeSubheading
-{Aspire Institute - Haravard University}{13 Feb, 2025 - 25 May, 2025}
+{Aspire Institute - Haravard University \href{https://drive.google.com/file/d/1Y8Sg2WKU3eMO-7lG5h9_0HwqH322jBpZ/view?usp=drive_link}{\faIcon{link}}}{13 Feb, 2025 - 25 May, 2025}
 {Leadership Program - Cohort 2}{New York, USA}
 \resumeItemListStart
 \resumeItem{A future where every young person achieves their full potential and contributes their leadership and talents to build thriving communities.}
@@ -160,7 +173,7 @@
 \resumeItem{Stores attendance data with timestamp in a CSV file daily.}
 \resumeItem{Enhanced performance with frame skipping and error logging.}
 \vspace{2pt}
-{\textbf{More Project(Checkout) - \href{https://github.com/dipgitcom}{\faIcon{github} Github}}
+{\textbf{More Project Checkout - \href{https://github.com/dipgitcom}{\faIcon{github} Github}}
 
 \resumeItemListEnd
 \resumeSubHeadingListEnd
@@ -187,6 +200,7 @@
 \section{Certification}
 \resumeItemListStart
 
+
 \resumeItem{Machine Learning With Python - IBM \href{https://drive.google.com/file/d/1aKYobS76OtNgEyjMkzWw8A4h8preb5Po/view?usp=drive_link}{\faIcon{link}}}
 \resumeItem{Machine Learning - Microsoft \href{https://drive.google.com/file/d/12HAHAU2V-luh4zW7fIsnPsoTSrg2G5Hb/view?usp=drive_link}{\faIcon{link}}}
 \resumeItem{Google Data Analytics - Google \href{}{\faIcon{link}}}
@@ -194,5 +208,87 @@
 
 
 \resumeItemListEnd
+
+\section{Achievement And Positions Of Responsibility}
+\resumeItemListStart
+
+
+\resumeItem{Chamipons Of the Champion - Software Project Showcase 2024,API Innovation Team,Nstu }
+\resumeItem{1st Runnerup - Software Project Showcase,IIT,Nstu }
+\resumeItem{Basis Student's Forum,Member  }
+\resumeItem{International Conference On Machine Intelligence and Emerging Technologies(MIET), Volunteer }
+\resumeItem{Executive Member,Dhrupad Music Club,Nstu}
+\resumeItem{Head Of the Documentation,Nstu Dance Club,Nstu}
+\resumeItem{General Member,IT Club }
+
+
+
+\resumeItemListEnd
+
+\section{Language Proficiency}
+\resumeItemListStart
+\item Proficient in \textbf{English} other than mother language \textbf{Bengali}. Also know \textbf{Hindi} and \textbf{Sanskrit}.
+\resumeItemListEnd
+
+\section{Extra Curricular Activities}
+\resumeItemListStart
+\item  \textbf{Playing Guitar and UKulele, Arts, Song , Dance } 
+\resumeItemListEnd
+
+
+% Required packages
+
+
+% Academic Qualification Section
+\section*{Academic Qualification}
+
+\begin{tabularx}{\textwidth}{|>{\centering\arraybackslash}X
+                        |>{\centering\arraybackslash}X
+                        |>{\centering\arraybackslash}X
+                        |>{\centering\arraybackslash}X
+                        |>{\centering\arraybackslash}X|}
+\hline
+
+\textbf{Exam Title} & \textbf{Concentration} & \textbf{Institute} & \textbf{Result (CGPA)} & \textbf{Past Year} \\
+\hline
+BSSE & Software Engineering & Noakhali Science and Technology University, Nstu & 3.47 out of 4.00 & Undergraduate \\
+HSC & Science & Hajera Taju Degree College, Chattogram & 5.00 out of 5.00 & 2020 \\
+SSC & Science & Chattogram Collegiate School, Chattogram & 5.00 out of 5.00 & 2018 \\
+\hline
+\end{tabularx}
+
+
+
+
+% Personal Details Section
+\section*{Personal Details}
+\begin{tabular}{ll}
+\textbf{Father's Name:}       & Pranab Kumar Dhar \\
+\textbf{Mother's Name:}       & Anita Dhar \\
+\textbf{Date of Birth:}       & Nov 17, 2001 \\
+\textbf{Gender:}              & Male \\
+\textbf{Marital Status:}      & Unmarried \\
+\textbf{Nationality:}         & Bangladeshi \\
+\textbf{Permanent Address:}   & Raozan, Noapara, Chattogram \\
+\textbf{Current Location:}    & Noakhali \\
+\end{tabular}
+
+
+
+% Reference Section
+\section*{Reference(s)}
+\begin{tabularx}{\textwidth}{X X}
+\textbf{Reference: 01} & \textbf{Reference: 02} \\
+\textbf{Name:} Md Iftekhar Alam Efat & \textbf{Name:} Dipok Chandra Das \\
+\textbf{Designation:} Assistant Professor & \textbf{Designation:} Assistant Professor \\
+\textbf{Address:} Institute of Information Technology (IIT), Noakhali Science and Technology University, Nstu & \textbf{Address:} Institute of Information Technology (IIT), Noakhali Science and Technology University, Nstu \\
+\textbf{E-Mail:} iftekhar.iit@nstu.edu.bd & \textbf{E-Mail:} dipok.iit@nstu.edu.bd \\
+\end{tabularx}
+
+\begin{flushright}
+    \makebox[\widthof{\textbf{Signature}}]{\hrulefill} \\
+    \textbf{Signature}
+\end{flushright}
+
 
 \end{document}
